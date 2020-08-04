@@ -44,8 +44,13 @@ push - day data len tai khoan github - can dien tk-mk sau khi enter
 $ git push origin master
 
 
+TRUOC KHI ADD - GIT COMMIT FILE PHAI THUC HIEN
+$ git add .								#them file bi thay doi or file moi vao kho luu tru cuc bo cua git
 add 1 file moi vao commit de updata len git
 $ git commit -m "Add git_trojan.py"		#git_trojan.py - ten file -- luu y phai cd den thu muc chua file ??? chua test truong hop khac :D
-
 add 1 file bi thay doi vao commit de thuc hien dong bo hoa voi git
 $ git commit -m "edit note.txt"			#"edit name-file"
+
+
+day kho luu tru cuc bo len kho luu tru online cua git
+$ git push origin master
