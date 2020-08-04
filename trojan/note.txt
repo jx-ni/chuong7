@@ -42,3 +42,7 @@ $ git remote -v
 
 push - day data len tai khoan github - can dien tk-mk sau khi enter
 $ git push origin master
+
+
+add 1 file moi vao commit de updata len git
+$ git commit -m "Add git_trojan.py"		#git_trojan.py - ten file -- luu y phai cd den thu muc chua file ??? chua test truong hop khac :D
