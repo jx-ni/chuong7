@@ -46,3 +46,6 @@ $ git push origin master
 
 add 1 file moi vao commit de updata len git
 $ git commit -m "Add git_trojan.py"		#git_trojan.py - ten file -- luu y phai cd den thu muc chua file ??? chua test truong hop khac :D
+
+add 1 file bi thay doi vao commit de thuc hien dong bo hoa voi git
+$ git commit -m "edit note.txt"			#"edit name-file"
