@@ -1,0 +1,44 @@
+﻿$ mkdir trojan
+
+$ cd trojan
+
+??? download init???
+Chuyển đến thư mục làm việc trong đó tệp tồn tại mà bạn muốn đẩy từ xa và tạo thư mục .git bằng cách
+$ git init
+
+$ mkdir modules
+
+$ mkdir config
+
+$ mkdir data
+
+$ touch modules/.gitignore
+
+$ touch config/.gitignore
+
+$ touch data/.gitignore
+
+??? add . ???????
+Thêm các tệp trong kho lưu trữ cục bộ mới của bạn.
+Lưu ý: trong khi bạn ở trong cùng một thư mục, hãy đảm bảo rằng bạn đã đặt dấu chấm sau lệnh nếu bạn đặt đường dẫn hoặc không đặt dấu chấm sẽ tạo ra sự mơ hồ
+$ git add .			
+
+chua hieu lam ?????????
+Cam kết các tệp bạn đã dàn dựng trong kho lưu trữ cục bộ của mình.
+$ git commit -m "Adding new modules"
+chua hieu lam ?????????
+$ git commit -m "Adding repo structure for trojan."	
+chua hieu lam
+$ git commit -m "Adding simple config."
+
+add link project trong may linh voi thu muc chua project trong tai khoan github 
+$ git remote add origin https://github.com/<yourusername>/chapter7.git
+
+xoa lien ket remote
+$ git remote rm origin
+
+hien thi lien ket remote
+$ git remote -v
+
+push - day data len tai khoan github - can dien tk-mk sau khi enter
+$ git push origin master
